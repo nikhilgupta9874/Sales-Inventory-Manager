@@ -84,7 +84,7 @@ function SalesForm({ id, isLastForm, onDuplicate, onUpdateFormData }) {
         <Controller
           name="orderType"
           control={control}
-          rules={{ required: true }}
+          rules={{ required: true }}git
           render={({ field }) => (
             <Select
               {...field}
